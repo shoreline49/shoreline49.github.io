@@ -1,16 +1,23 @@
 body {
 	background-attachment: fixed;
-	background-image: url (photo-1426200830301-372615e4ac54.jpeg);
+	background-image: url("photo-1426200830301-372615e4ac54.jpeg");
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
-h1, h2, p {
+h1, h2 {
 	color: red;
 	text-align: center;
 	font-style: italic;
     }
+
+h3, h4, h6, p {
+  color: white;
+  text-align: center;
+  font-style: italic;
+    }
+
 
 ul.navigation {
   background-color: white;
