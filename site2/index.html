@@ -4,38 +4,56 @@
     <title>All about Mike</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 
+    <script type="text/javascript" src="script.js"></script>
   </head>
 
 <body>
-  <h1>About Mike</h1>
-  <img src="HzoV68iE_400x400_my_photo.jpg">
+  <h1 id="open-title">About Mike</h1>
+  
+  <div> 
+    <img src="HzoV68iE_400x400_my_photo.jpg" id="business-portrait"> 
+  </div>
+  
   <br/>
-  <img src="https://betamore.com/wp-content/themes/betamore/img/icons/mobile-logo.png">
+  
+  <img id="betamore-logo" src="https://betamore.com/wp-content/themes/betamore/img/icons/mobile-logo.png">
 
 
   <h2>"Motto"</h2>
   <p>....Words to live by "<em>try it</em> <strong>today</strong>, tomorrow you'll want to <strong>do</strong> something different"</p>
   
   <h3>"Mission"</h3>
-  <p>....try new <strong>experiences</strong>, meet new people, learn something new everyday!</p>
+  <p>....try new <strong>experiences</strong>, <span class="underline-word">meet new people</span>, learn something new everyday!</p>
   
+  </br>
   <p>here's my twitter</p>
   <a href="https://www.twitter.com/startupmundial" title="My twitter">follow me on twitter...tweet</a>
-
+  <img id="twitter-logo" src=
+  
   <p>here's my email</p>
+  <div>
   <a href="mailto:shoreline49@gmail.com">
     Say Hi</a>
+  </div>
 
+  <div id="projects-float-right">
   <h4>Projects I've worked on</h4>
-  <ul>
-    <li class="project-list-items">web site (www.???.com)</li>
-    <li>android/iphone app (???)</li>
-    <li class="project-list-items" id="not maintained">trailblazer (???)</li>
-  </ul>
+ 
+  
+    <ul>
+      <li>web site (www.???.com)</li>
+      <li>android/iphone app (???)</li>
+      <li>video (???)</li>
+      <li id="not-maintained">trailblazer (???)</li>
+    </ul>
+  
+  </div>
 
+  
+  <div id="skills-float-left">
     <h4>my skills</h4>
     <ol>
-      <li class="skills-list-items">public speaking</li>
+      <li class="skills-list-items">public speaking<li>
       <li>public parellel parking</li>
       <li class="skills-list-items">managing people</li>
       <li>programming</li>
@@ -45,7 +63,9 @@
           <!-- TODO: Add git after lunch -->
         </ol>
     </ol>
-  
+  </div>
+
+  <div id="clear-float">
   <table>
     <tr>
       <th>Position/Role</th>
@@ -64,6 +84,7 @@
       <td>Start of Professional 9-5 Career</td>
     </tr>
   </table>
+  </div>
 
   <p></p>
 </body>

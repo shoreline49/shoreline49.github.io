@@ -1,11 +1,35 @@
-h1, h2, p {
-	color: red;
+body {
+  background-attachment: fixed;
+  background-image: url(background_mtn_water.jpeg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+h1, h2, h3, h4 {
 	font-family: "Arial", sans-serif;
+	width: 400px;
+	margin: auto;
+	text-align: center;
+	color: white;
 }
 
 p {
 	background-color: rgb(32, 43, 0);
+	margin: auto;
+	width: 300px;
+	text-align: center;
+	color: white;
 }
+
+
+img {
+	max-width: 200px;
+	display: block;
+	margin: 0 auto;
+}
+
 
 h4 {
 	font-size: 1.5em;
@@ -18,14 +42,73 @@ li {
   font-family: sans-serif;
 }
 
+#projects-float-right{
+	float: right;
+	width: 50%;
+}
+
+#skills-float-left{
+	float: left;
+	width: 50%;
+}
+
 .project-list-items {
-	background-color: red;
+	/*background-color: red;*/
+	color: white;
+	
+	
 }
 
 .skills-list-items {
-	background-color: blue;
+	/*background-color: blue;*/
+	color: white;
+
+	
 }
 
 #not-maintained {
-	background-color: grey;
+	background-color: orange;
 }
+
+.underline-word {  
+  text-decoration: underline;
+}
+
+td, th {
+	border: 1px solid #999;
+	padding: 0.5em;
+	text-align: left;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+#business-portrait	{
+	padding: 10px 15px 10px 15px;
+}
+	/* can also be written as:
+	padding: 10px 15px;
+	     &
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;     */
+
+#betamore-logo {
+	margin-top: 30px;
+}
+
+.project-list-items ul li{
+
+}
+
+#clear-float {
+	clear: left;
+}
+
+		a:link    { color: #FF0000; }  
+        a:visited { color: #00FF00; }  
+        a:hover   { color: #FF00FF; } 
+        a:active  { color: #0000FF; }
+
