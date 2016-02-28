@@ -3,7 +3,7 @@
 //var kittens;
 //var kittens = 5;
 window.onload = function(e){
-
+//adding dummy coment
 function turtleFact() {
 	alert("some turtles can live longer than humans");
 }
