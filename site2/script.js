@@ -1,14 +1,14 @@
-//alert("thanks for visiting site");
+// alert("thanks for visiting site");
 
 //var kittens;
 //var kittens = 5;
-window.onLoad = function(e){
+window.onload = function(e){
 
 function turtleFact() {
 	alert("some turtles can live longer than humans");
 }
 
-//turtleFact();
+// turtleFact();
 
 function temptGang(gangName) {
 	alert(gangName + " Come out and play!")
